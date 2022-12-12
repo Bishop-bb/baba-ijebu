@@ -486,11 +486,11 @@ function input(){
             check[i] = User[i];
             if(User.length == 3 && check.length == 3){
                 console.log(User)
-                conmessage = "You Win</br>" + `Your predicted numbers are ${usernum} and the random numbers are ${randy}`
+                conmessage = "You Win,</br>" + `Your predicted numbers are ${usernum} and the random numbers are ${randy}`
             }
             else if(User.length == 2 && check.length == 2){
                 console.log(User)
-                conmessage = "You Win</br>" + `Your predicted numbers are ${usernum} and the random numbers are ${randy}`
+                conmessage = "You Win,</br>" + `Your predicted numbers are ${usernum} and the random numbers are ${randy}`
             }
             else{
                 conmessage = 'Enter 2 or 3 numbers separated with a comma to play'
@@ -502,7 +502,7 @@ function input(){
             conmessage = ""
         }
         else{
-            conmessage = "You Lose</br>" + ` Try Again your predicted numbers are ${usernum} and the random numbers are ${randy}`
+            conmessage = "You Lose,</br>" + ` Try Again your predicted numbers are ${usernum} and the random numbers are ${randy}`
         }
         
         i++

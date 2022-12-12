@@ -225,11 +225,17 @@ body{
     margin-top: 10px;
     padding: 10px;
 }
+#last{
+    display: none;
+}
+#hidden{
+    display: none;
+}
 
 
 /* MEDIA QUERY */
 @media (max-width: 490px) {
-
+ 
     #sec1 #div1{
         width: 100%;
         padding: 20px;
@@ -286,7 +292,7 @@ body{
 
 }
 #inst span{ 
-    font-size: 15px;
+    font-size: 16px;
     /* padding: 5px 10px; */
     /* margin-top: -500px; */
     color: red;
@@ -394,12 +400,15 @@ body{
     padding: 5px 15px;
 }
 #last{
+    display: inline;
     color: red;
     text-align: center;
     font-size: 18px;
     padding: 0 15px;
     margin-top: 90px;
     
+}#hidden{
+    display: inline;
 }
     
 }
