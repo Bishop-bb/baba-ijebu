@@ -169,7 +169,7 @@ function thirtythree(){
     
 }
 
-function tirtyfour(){
+function thirtyfour(){
     let output = document.getElementById('here').value += "34"
     
 }
@@ -347,34 +347,34 @@ function sixtynine(){
     let output = document.getElementById('here').value += "69"
     
 }
-function sevety(){
+function seventy(){
     let output = document.getElementById('here').value += "70"
 }
-function sevetyone(){
+function seventyone(){
     let output = document.getElementById('here').value += "71"
 }
-function sevetytwo(){
+function seventytwo(){
     let output = document.getElementById('here').value += "72"
 }
-function sevetythree(){
+function seventythree(){
     let output = document.getElementById('here').value += "73"
 }
-function sevetyfour(){
+function seventyfour(){
     let output = document.getElementById('here').value += "74"
 }
-function sevetyfive(){
+function seventyfive(){
     let output = document.getElementById('here').value += "75"
 }
-function sevetysix(){
+function seventysix(){
     let output = document.getElementById('here').value += "76"
 }
-function sevetyseven(){
+function seventyseven(){
     let output = document.getElementById('here').value += "77"
 }
-function sevetyeight(){
+function seventyeight(){
     let output = document.getElementById('here').value += "78"
 }
-function sevetynine(){
+function seventynine(){
     let output = document.getElementById('here').value += "79"
 }
 function eighty(){
@@ -399,7 +399,7 @@ function eightysix(){
     let output = document.getElementById('here').value += "86"
 }
 function eightyseven(){
-    let output = document.getElementById('here').value += "97"
+    let output = document.getElementById('here').value += "87"
 }
 function eightyeight(){
     let output = document.getElementById('here').value += "88"
@@ -480,6 +480,7 @@ function input(){
     let errmessage = ""
     
     let i = 0;
+    i >= 3;
 
     for(let value of randNum){
         if(randNum.includes(User[i]) == true && randNum.includes(User[i])&& randNum.includes(User[i]) && User.length == 3 || User.length == 2){
